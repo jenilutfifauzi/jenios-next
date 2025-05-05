@@ -14,7 +14,6 @@ export default function Home() {
         </div>
         {/* End of Hero section */}
       </div>
-
       <div className="relative flex flex-col items-center justify-center overflow-hidden mx-auto max-w-6xl w-full my-8">
         <h2 className="text-xl font-lg text-center capitalize opacity-50">
           Used by People at
@@ -536,159 +535,155 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Pricing Section */}
       <div className="container mx-auto mt-24 max-w-7xl px-8 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Simple, transparent pricing
+            Harga sederhana dan transparan
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Choose the plan that's right for your business
+            Pilih paket yang sesuai dengan kebutuhan Anda
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Free Plan */}
+          {/* Gratis Konsultasi */}
           <div className="rounded-3xl p-8 ring-1 ring-gray-200">
-            <h3 className="text-lg font-semibold leading-8">Free</h3>
+            <h3 className="text-lg font-semibold leading-8">
+              Gratis Konsultasi
+            </h3>
             <p className="mt-4 text-sm leading-6 text-gray-600">
-              Perfect for trying out our platform
+              Konsultasi awal tanpa biaya untuk memahami kebutuhan Anda.
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
-              <span className="text-4xl font-bold tracking-tight">$0</span>
-              <span className="text-sm font-semibold leading-6">/month</span>
+              <span className="text-4xl font-bold tracking-tight">Gratis</span>
             </p>
             <button className="mt-6 block w-full rounded-md bg-gray-50 px-3 py-2 text-center text-sm font-semibold leading-6 text-black hover:bg-gray-100">
-              Get started for free
+              Daftar Konsultasi
             </button>
             <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-              <li className="flex gap-x-3">✓ 10 requests per day</li>
-              <li className="flex gap-x-3">✓ Basic analytics</li>
-              <li className="flex gap-x-3">✓ 24-hour support response time</li>
+              <li className="flex gap-x-3">✓ Konsultasi 30 menit</li>
+              <li className="flex gap-x-3">✓ Analisa kebutuhan dasar</li>
+              <li className="flex gap-x-3">✓ Rekomendasi solusi awal</li>
             </ul>
           </div>
 
-          {/* Pro Plan */}
+          {/* Mahasiswa */}
           <div className="rounded-3xl p-8 ring-2 ring-gray-950">
-            <h3 className="text-lg font-semibold leading-8">Pro</h3>
+            <h3 className="text-lg font-semibold leading-8">Mahasiswa</h3>
             <p className="mt-4 text-sm leading-6 text-gray-600">
-              Perfect for small teams
+              Paket khusus untuk mahasiswa, cocok untuk tugas akhir atau proyek
+              kampus.
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
-              <span className="text-4xl font-bold tracking-tight">$49</span>
-              <span className="text-sm font-semibold leading-6">/month</span>
+              <span className="text-4xl font-bold tracking-tight">
+                Mulai dari Rp99.000
+              </span>
+              <span className="text-sm font-semibold leading-6">/bulan</span>
             </p>
             <button className="mt-6 block w-full rounded-md bg-gray-900 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-gray-800">
-              Subscribe to Pro
+              Pilih Paket Mahasiswa
             </button>
             <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-              <li className="flex gap-x-3">✓ 1,000 requests per day</li>
-              <li className="flex gap-x-3">✓ Advanced analytics</li>
-              <li className="flex gap-x-3">✓ 6-hour support response time</li>
-              <li className="flex gap-x-3">✓ API access</li>
-              <li className="flex gap-x-3">✓ Custom integrations</li>
+              <li className="flex gap-x-3">✓ Gratis konsultasi</li>
+              <li className="flex gap-x-3">✓ Bantuan pengerjaan proyek</li>
+              <li className="flex gap-x-3">✓ Akses API terbatas</li>
+              <li className="flex gap-x-3">✓ Waktu respon maksimal 24 jam</li>
+              <li className="flex gap-x-3">✓ Harga khusus hosting & domain</li>
             </ul>
           </div>
 
-          {/* Enterprise Plan */}
+          {/* UMKM */}
           <div className="rounded-3xl p-8 ring-1 ring-gray-200">
-            <h3 className="text-lg font-semibold leading-8">Enterprise</h3>
+            <h3 className="text-lg font-semibold leading-8">UMKM</h3>
             <p className="mt-4 text-sm leading-6 text-gray-600">
-              Custom solutions for large teams
+              Solusi digital lengkap untuk usaha mikro, kecil, dan menengah.
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
-              <span className="text-4xl font-bold tracking-tight">Custom</span>
+              <span className="text-4xl font-bold tracking-tight">
+                Skala UMKM
+              </span>
             </p>
             <button className="mt-6 block w-full rounded-md bg-gray-50 px-3 py-2 text-center text-sm font-semibold leading-6 text-black hover:bg-gray-100">
-              Contact sales
+              Konsultasi UMKM
             </button>
             <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-              <li className="flex gap-x-3">✓ Unlimited requests</li>
-              <li className="flex gap-x-3">✓ Enterprise analytics</li>
-              <li className="flex gap-x-3">✓ 1-hour support response time</li>
-              <li className="flex gap-x-3">✓ Priority support</li>
-              <li className="flex gap-x-3">✓ Custom SLA</li>
-              <li className="flex gap-x-3">✓ Dedicated account manager</li>
+              <li className="flex gap-x-3">✓ Konsultasi tanpa batas</li>
+              <li className="flex gap-x-3">
+                ✓ Pengembangan sistem sesuai kebutuhan
+              </li>
+              <li className="flex gap-x-3">✓ Integrasi dengan sistem bisnis</li>
+              <li className="flex gap-x-3">✓ Dukungan teknis prioritas</li>
+              <li className="flex gap-x-3">✓ Maintenance & backup rutin</li>
             </ul>
           </div>
         </div>
       </div>
-
       <div className="container mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 mt-16">
         {/* Tabs Section */}
         <TabsDemo />
       </div>
-
       <div className="container mx-auto mt-24 max-w-7xl px-8 sm:px-6 lg:px-8">
         {/* Feature Section */}
         <FeaturesSection />
       </div>
-
       {/* FAQ Section */}
       <div className="container mx-auto mt-24 max-w-7xl px-8 sm:px-6 lg:px-8 mb-24">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Frequently asked questions
+            Pertanyaan yang Sering Diajukan
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Can't find what you're looking for? Contact our support team.
+            Tidak menemukan jawaban? Hubungi tim support kami.
           </p>
         </div>
 
         <dl className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <dt className="font-semibold leading-7">
-              What payment methods do you accept?
+              Metode pembayaran apa saja yang tersedia?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              We accept all major credit cards, PayPal, and bank transfers for
-              our Pro and Enterprise plans.
+              Kami menerima transfer bank, e-wallet (OVO, GoPay, DANA), dan kartu kredit untuk semua paket berbayar.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Can I upgrade or downgrade my plan anytime?
+              Apakah saya bisa upgrade atau downgrade paket kapan saja?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              Yes, you can change your plan at any time. The changes will be
-              reflected in your next billing cycle.
+              Ya, Anda dapat mengubah paket kapan saja. Perubahan akan berlaku pada siklus tagihan berikutnya.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Do you offer a money-back guarantee?
+              Apakah ada garansi uang kembali?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              Yes, we offer a 30-day money-back guarantee for all our paid
-              plans.
+              Kami memberikan garansi uang kembali 30 hari untuk semua paket berbayar.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              What kind of support do you provide?
+              Dukungan apa yang saya dapatkan?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              We provide email and chat support with different response times
-              based on your plan level.
+              Anda mendapatkan dukungan via email dan chat sesuai dengan paket yang dipilih.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Is there a long-term contract?
+              Apakah ada kontrak jangka panjang?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              No, our services are provided on a month-to-month basis with no
-              long-term commitments required.
+              Tidak, semua layanan bersifat bulanan tanpa kontrak jangka panjang.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Can I cancel my subscription at any time?
+              Bisakah saya membatalkan langganan kapan saja?
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
-              Yes, you can cancel your subscription at any time without any
-              cancellation fees.
+              Ya, Anda dapat membatalkan langganan kapan saja tanpa biaya tambahan.
             </dd>
           </div>
         </dl>
