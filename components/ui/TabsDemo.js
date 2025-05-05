@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Tabs } from "../ui/tabs";
 
 export function TabsDemo() {
@@ -10,11 +11,10 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#2C1810] to-[#1a1a1a]">
           <p>Custom Website Development</p>
-          <img
-            src="assets/img/tabs/webdev.png"
+          <Image src="/assets/img/tabs/webdev.png"
             alt="dummy image"
-            width="1000"
-            height="1000"
+            width={1000}
+            height={1000}
             className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
           />
         </div>
@@ -26,11 +26,11 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#2C1810] to-[#1a1a1a]">
           <p>Content Management Systems</p>
-          <img
-            src="assets/img/tabs/wp.png"
+          <Image
+            src="/assets/img/tabs/wp.png"
             alt="dummy image"
-            width="1000"
-            height="1000"
+            width={1000}
+            height={1000}
             className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
           />
         </div>
@@ -42,11 +42,11 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#2C1810] to-[#1a1a1a]">
           <p>Modern Interface Design</p>
-          <img
-            src="assets/img/tabs/ui3.png"
+          <Image
+            src="/assets/img/tabs/ui3.png"
             alt="dummy image"
-            width="1000"
-            height="1000"
+            width={1000}
+            height={1000}
             className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
           />
         </div>
@@ -72,11 +72,11 @@ export function TabsDemo() {
 
 const DummyContent = () => {
   return (
-    <img
+    <Image
       src="/linear.webp"
       alt="dummy image"
-      width="1000"
-      height="1000"
+      width={1000}
+      height={1000}
       className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
     />
   );
