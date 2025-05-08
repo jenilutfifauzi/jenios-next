@@ -540,27 +540,27 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Harga sederhana dan transparan
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             Pilih paket yang sesuai dengan kebutuhan Anda
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Gratis Konsultasi */}
-          <div className="rounded-3xl p-8 ring-1 ring-gray-200">
+          <div className="rounded-3xl p-8 ring-1 ring-gray-200 dark:ring-gray-700 bg-white dark:bg-black">
             <h3 className="text-lg font-semibold leading-8">
               Gratis Konsultasi
             </h3>
-            <p className="mt-4 text-sm leading-6 text-gray-600">
+            <p className="mt-4 text-sm leading-6 text-gray-600 dark:text-gray-300">
               Konsultasi awal tanpa biaya untuk memahami kebutuhan Anda.
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-4xl font-bold tracking-tight">Gratis</span>
             </p>
-            <button className="mt-6 block w-full rounded-md bg-gray-50 px-3 py-2 text-center text-sm font-semibold leading-6 text-black hover:bg-gray-100">
+            <button className="mt-6 block w-full rounded-md bg-gray-50 dark:bg-gray-800 px-3 py-2 text-center text-sm font-semibold leading-6 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               Daftar Konsultasi
             </button>
-            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
+            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
               <li className="flex gap-x-3">✓ Konsultasi 30 menit</li>
               <li className="flex gap-x-3">✓ Analisa kebutuhan dasar</li>
               <li className="flex gap-x-3">✓ Rekomendasi solusi awal</li>
@@ -568,9 +568,9 @@ export default function Home() {
           </div>
 
           {/* Mahasiswa */}
-          <div className="rounded-3xl p-8 ring-2 ring-gray-950">
+          <div className="rounded-3xl p-8 ring-2 ring-gray-950 dark:ring-gray-300 bg-white dark:bg-black">
             <h3 className="text-lg font-semibold leading-8">Mahasiswa</h3>
-            <p className="mt-4 text-sm leading-6 text-gray-600">
+            <p className="mt-4 text-sm leading-6 text-gray-600 dark:text-gray-300">
               Paket khusus untuk mahasiswa, cocok untuk tugas akhir atau proyek
               kampus.
             </p>
@@ -578,12 +578,12 @@ export default function Home() {
               <span className="text-4xl font-bold tracking-tight">
                 Mulai dari Rp99.000
               </span>
-              <span className="text-sm font-semibold leading-6">/bulan</span>
+              <span className="text-sm font-semibold leading-6">/ deal</span>
             </p>
-            <button className="mt-6 block w-full rounded-md bg-gray-900 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-gray-800">
+            <button className="mt-6 block w-full rounded-md bg-gray-900 dark:bg-gray-800 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-gray-800 dark:hover:bg-gray-700">
               Pilih Paket Mahasiswa
             </button>
-            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
+            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
               <li className="flex gap-x-3">✓ Gratis konsultasi</li>
               <li className="flex gap-x-3">✓ Bantuan pengerjaan proyek</li>
               <li className="flex gap-x-3">✓ Akses API terbatas</li>
@@ -593,9 +593,9 @@ export default function Home() {
           </div>
 
           {/* UMKM */}
-          <div className="rounded-3xl p-8 ring-1 ring-gray-200">
+          <div className="rounded-3xl p-8 ring-1 ring-gray-200 dark:ring-gray-700 bg-white dark:bg-black">
             <h3 className="text-lg font-semibold leading-8">UMKM</h3>
-            <p className="mt-4 text-sm leading-6 text-gray-600">
+            <p className="mt-4 text-sm leading-6 text-gray-600 dark:text-gray-300">
               Solusi digital lengkap untuk usaha mikro, kecil, dan menengah.
             </p>
             <p className="mt-6 flex items-baseline gap-x-1">
@@ -603,10 +603,10 @@ export default function Home() {
                 Skala UMKM
               </span>
             </p>
-            <button className="mt-6 block w-full rounded-md bg-gray-50 px-3 py-2 text-center text-sm font-semibold leading-6 text-black hover:bg-gray-100">
+            <button className="mt-6 block w-full rounded-md bg-gray-50 dark:bg-gray-800 px-3 py-2 text-center text-sm font-semibold leading-6 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               Konsultasi UMKM
             </button>
-            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
+            <ul className="mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
               <li className="flex gap-x-3">✓ Konsultasi tanpa batas</li>
               <li className="flex gap-x-3">
                 ✓ Pengembangan sistem sesuai kebutuhan
@@ -632,7 +632,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Pertanyaan yang Sering Diajukan
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             Tidak menemukan jawaban? Hubungi tim support kami.
           </p>
         </div>
@@ -640,50 +640,50 @@ export default function Home() {
         <dl className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <dt className="font-semibold leading-7">
-              Metode pembayaran apa saja yang tersedia?
+              Jenis website apa yang bisa dibuat?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
-              Kami menerima transfer bank, e-wallet (OVO, GoPay, DANA), dan kartu kredit untuk semua paket berbayar.
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
+              Kami membantu membuat berbagai jenis website, mulai dari company profile/branding, blog, e-commerce, hingga website custom sesuai kebutuhan Anda.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Apakah saya bisa upgrade atau downgrade paket kapan saja?
+              Bagaimana jika website sudah jadi dan ada perubahan/revisi?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
-              Ya, Anda dapat mengubah paket kapan saja. Perubahan akan berlaku pada siklus tagihan berikutnya.
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
+              Kami menyediakan layanan revisi sesuai dengan paket yang Anda pilih. Untuk perubahan besar, kami akan memberikan penawaran harga baru.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
               Apakah ada garansi uang kembali?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
               Kami memberikan garansi uang kembali 30 hari untuk semua paket berbayar.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Dukungan apa yang saya dapatkan?
+              Berapa lama proses pembuatan website?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
-              Anda mendapatkan dukungan via email dan chat sesuai dengan paket yang dipilih.
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
+            Rata-rata, pembuatan dan pemeliharaan sebuah website membutuhkan waktu sekitar 1-2 bulan. Namun, waktu tersebut dapat berbeda-beda tergantung pada kompleksitas proyek dan masalah yang Anda hadapi. Untuk memberikan estimasi yang lebih akurat, kami memerlukan informasi lebih lanjut mengenai lingkup pekerjaan dan kebutuhan Anda.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Apakah ada kontrak jangka panjang?
+              Bagaimana cara pengajuan pembuatan website di Jenios?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
-              Tidak, semua layanan bersifat bulanan tanpa kontrak jangka panjang.
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
+              Anda dapat mengisi formulir pengajuan di website kami atau menghubungi tim support kami melalui email atau WhatsApp. Tim kami akan segera menghubungi Anda untuk menjadwalkan konsultasi.
             </dd>
           </div>
           <div>
             <dt className="font-semibold leading-7">
-              Bisakah saya membatalkan langganan kapan saja?
+              Apa kelebihan layanan pembuatan website di Jenios?
             </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600">
-              Ya, Anda dapat membatalkan langganan kapan saja tanpa biaya tambahan.
+            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
+              Kami telah membantu banyak klien dalam pembuatan website yang sesuai dengan kebutuhan mereka. Kami memiliki tim yang berpengalaman dan siap membantu Anda dalam setiap langkah proses pembuatan website. Selain itu, kami juga memberikan dukungan teknis dan pemeliharaan setelah website selesai dibuat.
             </dd>
           </div>
         </dl>
