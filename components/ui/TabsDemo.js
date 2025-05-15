@@ -10,7 +10,7 @@ export function TabsDemo() {
       value: "webdev",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
-          <p>Custom Website Development</p>
+          {/* <p>Custom Website Development</p> */}
           <Image src="/assets/img/tabs/webdev.png"
             alt="dummy image"
             width={1000}
@@ -25,7 +25,7 @@ export function TabsDemo() {
       value: "cms",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
-          <p>Content Management Systems</p>
+          {/* <p>Content Management Systems</p> */}
           <Image
             src="/assets/img/tabs/wp.png"
             alt="dummy image"
@@ -41,7 +41,7 @@ export function TabsDemo() {
       value: "design",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
-          <p>Modern Interface Design</p>
+          {/* <p>Modern Interface Design</p> */}
           <Image
             src="/assets/img/tabs/ui3.png"
             alt="dummy image"
