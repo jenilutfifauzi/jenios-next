@@ -28,7 +28,7 @@ export function AnimatedHero() {
         Booking Sekarang
       </a>
       <a
-        href="#features"
+        href="https://api.whatsapp.com/send?phone=6281388050997&text=halo+kak+saya+ingin+berdiskusi+terkait+pembuatan+website"
         className="mt-4 inline-block px-6 py-3 text-sm font-semibold text-white bg-neutral-900 rounded-lg shadow-md hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-700 focus:ring-opacity-50"
       >
         Konsultasi Gratis

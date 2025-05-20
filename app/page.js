@@ -1,5 +1,7 @@
 import { AnimatedHero } from "@/components/AnimatedHero";
+import { Faq } from "@/components/Faq";
 import { FeaturesSection } from "@/components/FeaturesSection";
+import { CodeScroll } from "@/components/ui/CodeScroll";
 import { TabsDemo } from "@/components/ui/TabsDemo";
 
 export default function Home() {
@@ -535,6 +537,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="container mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 mt-16">
+        {/* CodeScroll Section */}
+        <CodeScroll />
+      </div>
       <div className="container mx-auto mt-24 max-w-7xl px-8 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -636,57 +642,11 @@ export default function Home() {
             Tidak menemukan jawaban? Hubungi tim support kami.
           </p>
         </div>
-
-        <dl className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <div>
-            <dt className="font-semibold leading-7">
-              Jenis website apa yang bisa dibuat?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-              Kami membantu membuat berbagai jenis website, mulai dari company profile/branding, blog, e-commerce, hingga website custom sesuai kebutuhan Anda.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold leading-7">
-              Bagaimana jika website sudah jadi dan ada perubahan/revisi?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-              Kami menyediakan layanan revisi sesuai dengan paket yang Anda pilih. Untuk perubahan besar, kami akan memberikan penawaran harga baru.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold leading-7">
-              Apakah ada garansi uang kembali?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-              Kami memberikan garansi uang kembali 30 hari untuk semua paket berbayar.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold leading-7">
-              Berapa lama proses pembuatan website?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-            Rata-rata, pembuatan dan pemeliharaan sebuah website membutuhkan waktu sekitar 1-2 bulan. Namun, waktu tersebut dapat berbeda-beda tergantung pada kompleksitas proyek dan masalah yang Anda hadapi. Untuk memberikan estimasi yang lebih akurat, kami memerlukan informasi lebih lanjut mengenai lingkup pekerjaan dan kebutuhan Anda.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold leading-7">
-              Bagaimana cara pengajuan pembuatan website di Jenios?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-              Anda dapat mengisi formulir pengajuan di website kami atau menghubungi tim support kami melalui email atau WhatsApp. Tim kami akan segera menghubungi Anda untuk menjadwalkan konsultasi.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-semibold leading-7">
-              Apa kelebihan layanan pembuatan website di Jenios?
-            </dt>
-            <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">
-              Kami telah membantu banyak klien dalam pembuatan website yang sesuai dengan kebutuhan mereka. Kami memiliki tim yang berpengalaman dan siap membantu Anda dalam setiap langkah proses pembuatan website. Selain itu, kami juga memberikan dukungan teknis dan pemeliharaan setelah website selesai dibuat.
-            </dd>
-          </div>
-        </dl>
+        {/* Accordion FAQ Start */}
+        <div className="mt-16 max-w-6xl mx-auto">
+          <Faq />
+        </div>
+        {/* Accordion FAQ End */}
       </div>
     </div>
   );
