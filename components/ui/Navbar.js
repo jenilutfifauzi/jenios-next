@@ -242,9 +242,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const items = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Contact", link: "/contact" },
+    { name: "Blog", link: "/blog" },
+    { name: "Booking", link: "/booking" },
   ];
 
   return (

@@ -9,7 +9,7 @@ export function TabsDemo() {
       title: "WebDev",
       value: "webdev",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#232526] via-[#414345] to-[#434343] bg-opacity-90 backdrop-blur-md shadow-xl">
           {/* <p>Custom Website Development</p> */}
           <Image src="/assets/img/tabs/webdev.png"
             alt="dummy image"
@@ -24,7 +24,7 @@ export function TabsDemo() {
       title: "CMS",
       value: "cms",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#232526] via-[#414345] to-[#434343] bg-opacity-90 backdrop-blur-md shadow-xl">
           {/* <p>Content Management Systems</p> */}
           <Image
             src="/assets/img/tabs/wp.png"
@@ -40,7 +40,7 @@ export function TabsDemo() {
       title: "UI/UX",
       value: "design",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1a1a1a] to-gray-500">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#232526] via-[#414345] to-[#434343] bg-opacity-90 backdrop-blur-md shadow-xl">
           {/* <p>Modern Interface Design</p> */}
           <Image
             src="/assets/img/tabs/ui3.png"
